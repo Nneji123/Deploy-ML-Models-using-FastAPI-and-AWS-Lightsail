@@ -3,7 +3,7 @@
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![Framework](https://img.shields.io/badge/FastAPI-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](https://github.com/tiangolo/fastapi)
 ![AWS](https://img.shields.io/badge/AWS-Lightsail-orange?style=flat&logo=amazon&logoColor=white)
-[![Medium](https://img.shields.io/badge/medium-blue.svg?style=flat&logo=medium&logoColor=white)](https://medium.com/p/151052470b7d/edit)
+[![Medium](https://img.shields.io/badge/medium-black.svg?style=flat&logo=medium&logoColor=white)](https://medium.com/p/151052470b7d/edit)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 [![Gitpod](https://img.shields.io/badge/Gitpod-orange?style=flat&logo=gitpod&logoColor=white)](https://gitpod.io/#https://github.com/Nneji123/Deploy-ML-Models-using-FastAPI-and-AWS-Lightsail)
 ![reposize](https://img.shields.io/github/repo-size/Nneji123/RapLyricsBot)
@@ -34,12 +34,12 @@ The repository file structure is given below:
 This file contains the important source code for building and running our FastAPI application. This is what the file contains:
 
 The API has three endpoints;
-The GET endpoint '/' which is just the homepage
-The '/document-classifier' endpoint. This endpoint takes a PDF file as input and then returns a JSON response with the classes the PDF file belongs to.
-The '/classify-image' endpoint. This endpoint takes an image file as input and then returns a JSON response with the classes the image file belongs to.
+- The GET endpoint '/' which is just the homepage
+- The '/document-classifier' endpoint. This endpoint takes a PDF file as input and then returns a JSON response with the classes the PDF file belongs to.
+- The '/classify-image' endpoint. This endpoint takes an image file as input and then returns a JSON response with the classes the image file belongs to.
 
 ### docker-compose.yml
-A docker-compose. yml is a config file for Docker Compose. It allows to deploy, combine, and configure multiple docker containers at the same time. In this case I used it to run the Docker container for the project locally.
+A docker-compose.yml is a config file for Docker Compose. It allows to deploy, combine, and configure multiple docker containers at the same time. In this case I used it to run the Docker container for the project locally.
 
 ### Dockerfile
 The Dockerfile contains all the commands needed to to build and run our Docker image.
