@@ -25,8 +25,7 @@ def classify_pdf(filename: str = "filename.pdf"):
         dpi=500,
         single_file=True,
         jpegopt="optimized",
-        output_file="image.jpg",
-        output_folder="images",
+        output_file="image.jpg"
     )
     # Saving pages in jpeg format
     for page in images:
