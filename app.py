@@ -10,7 +10,7 @@ from pdf2image.exceptions import (
     PDFPageCountError,
     PDFSyntaxError,
 )
-from utils import classify_image, convert_pdf
+from utils import classify_image, classify_pdf
 
 app = FastAPI(
     title="Document Classifier API",
@@ -38,7 +38,7 @@ async def get_document(file: UploadFile = File(...)):
         f.write(files)
     # open the file and return the file name
     try:
-        data = convert_pdf("filename.pdf")
+        data = classify_pdf("filename.pdf")
         return data
     except (PDFInfoNotInstalledError, PDFPageCountError, PDFSyntaxError) as e:
         return "Unable to parse document! Please upload a valid PDF file."
