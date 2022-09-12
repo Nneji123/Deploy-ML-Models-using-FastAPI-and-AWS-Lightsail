@@ -13,7 +13,7 @@
 ## About :speech_balloon:
 >This repository contains the source code for my article on medium titled `How to Deploy a Machine Learning API on AWS Lightsail`
 
-Medium Link: https://medium.com/p/151052470b7d/edit
+Medium Link: https://aws.plainenglish.io/how-to-deploy-a-machine-learning-api-on-aws-lightsail-151052470b7d
 
 
 ## Repository File Structure :file_folder:
@@ -106,7 +106,7 @@ And then you should be able to view the API on port 8080
 
 
 ## Deployment :computer:
-**For a detailed explanation on deployment, read up my article on medium: https://medium.com/p/151052470b7d/edit**
+**For a detailed explanation on deployment, read up my article on medium: https://aws.plainenglish.io/how-to-deploy-a-machine-learning-api-on-aws-lightsail-151052470b7d**
 
 # License :page_with_curl:
 [MIT](https://github.com/Nneji123/Deploy-ML-Models-using-FastAPI-and-AWS-Lightsail/LICENSE.md)
