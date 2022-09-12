@@ -3,7 +3,7 @@
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![Framework](https://img.shields.io/badge/FastAPI-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](https://github.com/tiangolo/fastapi)
 ![AWS](https://img.shields.io/badge/AWS-Lightsail-orange?style=flat&logo=amazon&logoColor=white)
-[![Medium](https://img.shields.io/badge/medium-black.svg?style=flat&logo=medium&logoColor=white)](https://medium.com/p/151052470b7d/edit)
+[![Medium](https://img.shields.io/badge/Medium-black.svg?style=flat&logo=Medium&logoColor=white)](https://aws.plainenglish.io/how-to-deploy-a-machine-learning-api-on-aws-lightsail-151052470b7d)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 [![Gitpod](https://img.shields.io/badge/Gitpod-orange?style=flat&logo=gitpod&logoColor=white)](https://gitpod.io/#https://github.com/Nneji123/Deploy-ML-Models-using-FastAPI-and-AWS-Lightsail)
 ![reposize](https://img.shields.io/github/repo-size/Nneji123/RapLyricsBot)
